@@ -1,6 +1,6 @@
 # GeographyXPAlgorithm
 
-Prototype Python implementations accompanying the paper on **Edge Geography parameterized by width**.
+Prototype Python implementations accompanying the paper on **Edge Geography parameterized by tree-partition width**.
 
 This repository contains code for the XP algorithm on rooted tree partitions described in Section 5 of the paper, together with an experimental harness used to validate the implementation against brute-force minimax on generated instances.
 
