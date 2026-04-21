@@ -32,21 +32,25 @@ Optional install for plotting:
 
 ```bash
 pip install matplotlib
+```
 
 ## Run the experimental harness on a random instance 
 
 ```bash
 python ueg_tree_partition_experiment.py demo --n 10 --width 3 --seed 1
+```
 
 ## Verify the XP solver agains minimax 
 
 ```bash
 python ueg_tree_partition_experiment.py verify --trials 20 --n 10 --width 3 --seed 2
+```
 
 ## Benchmark both solvers 
 
 ```bash
 python ueg_tree_partition_experiment.py benchmark --sizes 6,7,8,9,10 --width 3 --trials-per-size 5 --seed 3 --progress
+```
 
 ## Generate surface plots over $(n,k)$ 
 
@@ -58,6 +62,7 @@ python ueg_tree_partition_experiment.py surface \
     --solver both \
     --plot-prefix surface \
     --log-z
+```
 
 This may produce files such as: 
 - surface_tree_partition.png 
@@ -82,3 +87,4 @@ winner_is_p1 = solve_ueg_with_partition(
 )
 
 print("P1 wins?" , winner_is_p1)
+```
